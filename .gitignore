@@ -1,0 +1,33 @@
+# Build
+build/
+out/
+cmake-build-*/
+
+# IDE
+.vs/
+.vscode/
+*.vcxproj*
+*.sln
+.idea/
+
+# Binary
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+
+# Packaging
+packaging/msix/out/
+*.msix
+*.pfx
+Package.StoreAssociation.xml
+
+# Misc
+*.log
+.DS_Store
+Thumbs.db
+CLAUDE.md
+
+# Website (separate repo)
+web/
